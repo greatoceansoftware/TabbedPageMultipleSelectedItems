@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MAUI_Non_Shell_App"
+            x:Class="MAUI_Non_Shell_App.Project"
+            Title="Project">
+  <!--Pages can be added as references or inline-->
+  <local:Stakeholders Title="Stakeholders"/>
+  <local:Requirements Title="Requirements"/>
+  <local:Activities Title="Activities"/>
+  <local:Risks Title="Risks"/>
+  <local:Issues Title="Issues"/>
+  <local:Reports Title="Reports"/>
+</TabbedPage>
